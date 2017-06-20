@@ -1,0 +1,144 @@
+/**index.wxss**/
+.result{
+  width:100%;
+  background-color: #22afcc;
+}
+
+.result .title{
+  padding: 0 40rpx;
+  font-size: 28rpx;
+  padding-top:20rpx;
+  color: #f1f1f1;
+  font-weight:600;
+}
+
+.result .score{
+  padding: 0 40rpx;
+  line-height: 100rpx;
+  font-size: 60rpx;
+  color: #fff;
+}
+
+ .tip{
+   display: flex;
+ }
+
+ .first-tip{
+   margin-bottom: 4rpx;
+ }
+
+ .tip view{
+   line-height: 80rpx;
+   color: #f1f1f1;
+   font-size: 24rpx;
+   background-color:#20a1bb;
+   flex: 1;
+   padding-left: 40rpx;
+ }
+
+ .tip view text{
+   color: #fff;
+ }
+
+ .physical-condition{
+    margin: 0 4rpx 0 0;
+ }
+
+.input-container {
+   padding: 0 40rpx;
+}
+.item {
+  border-bottom: 1px solid #e2e2e2;
+  height:56rpx;
+  line-height: 56rpx;
+  font-size:32rpx;
+  padding: 20rpx 0rpx;
+  color: #909090;
+}
+
+.item .label{
+  width: 20%;
+  float: left;
+  vertical-align: middle;
+}
+
+.item input{
+  margin-left: 30%;
+  margin-right: 10%;
+  height:40rpx;
+  border: 1rpx solid #d9d9d9;
+  border-radius: 6rpx;
+  background-color: #f1f1f1;
+  text-align: right;
+  padding-right: 8rpx;
+  color:#22afcc;
+}
+
+.item .unit{
+  float: right;
+}
+
+.item .type_select{
+  float: right;
+}
+
+.item .type_select text{
+  margin-left: 8rpx;
+}
+
+.no-border{
+  border-bottom: 0px;
+}
+
+.calcu_btn {
+  background-color: #22afcc;
+  color: #fff;
+  font-weight: 400;
+}
+
+#result-container{
+  padding: 20rpx 0;
+}
+
+.compatable{
+  padding: 40rpx 40rpx 0 40rpx;
+  font-size: 28rpx;
+  color:#909090;
+}
+
+.compatable .table-title{
+  line-height: 50rpx;
+  height: 50rpx;
+}
+
+.table{
+  border: 1rpx solid #e2e2e2;
+}
+
+.table .row{
+  display: flex;
+  border-bottom: 1rpx solid #e2e2e2;
+  line-height: 60rpx;
+  height: 60rpx;
+}
+
+.table .row .col{
+  flex: 1;
+  text-align: center;
+  border-right: 1rpx solid #e2e2e2;
+}
+
+.table .thead{
+  background-color: #22afcc;
+  color:#f1f1f1;
+}
+
+.table .row .col:last-child{
+  border-right: 0rpx;
+}
+
+.table .row:last-child{
+   border-bottom: 0rpx;
+}
+
+

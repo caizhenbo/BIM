@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#22afcc",
+    "navigationBarTitleText": "体质指数计算器",
+    "navigationBarTextStyle":"white"
+  }
+}
